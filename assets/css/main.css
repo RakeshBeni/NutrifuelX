@@ -1735,7 +1735,7 @@ section {
 
 .hero form {
   background: #fff;
-  padding: 10px;
+  /* padding: 10px; */
   border-radius: 10px;
 }
 
@@ -2108,6 +2108,5 @@ section {
 }
 
 .card:hover{
-  
   box-shadow: 3px 2px 14px #02345b;
 }

@@ -1,109 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Logis Bootstrap Template - Index</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Logis Bootstrap Template - Index</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link rel="stylesheet" href="assets/css/authen.css" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <body>
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+      >
+        <a href="index.html" class="logo d-flex align-items-center">
+          <img src="./assets/img/nutrifuelx.png" alt="Logo" />
+        </a>
 
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <!-- <li><a href="#products">Products</a></li> -->
+            <li class="dropdown">
+              <a href="#products"
+                ><span>Product</span>
+                <i class="bi bi-chevron-down dropdown-indicator"></i
+              ></a>
+              <ul>
+                <li class="dropdown">
+                  <a href="#"
+                    ><span>Protein</span>
+                    <i class="bi bi-chevron-down dropdown-indicator"></i
+                  ></a>
+                  <ul>
+                    <li><a href="#">100% WHEY PROTEIN ISOLATE</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#"
+                    ><span>Gainer</span>
+                    <i class="bi bi-chevron-down dropdown-indicator"></i
+                  ></a>
+                  <ul>
+                    <li><a href="#">MUSCLE MASS EXTREME</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Creatine</a></li>
+                <li><a href="#">Multivitamins</a></li>
+              </ul>
+            </li>
+            <!-- <li><a href="#">Contact</a></li> -->
+            <li><a class="get-a-quote" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-</head>
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="hero d-flex align-items-center">
+      <div class="container">
+        <div class="row gy-4 d-flex justify-content-between">
+          <div
+            class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center"
+          >
+            <h2 data-aos="fade-up">Authenticate Your Product</h2>
+            <p data-aos="fade-up" data-aos-delay="100">
+              At NutrifuelX, we're more than just a brand. Our mission is simple
+              yet profound: to ensure that every item bearing our name is
+              genuine and dependable. We've crafted an easy-to-use verification
+              process where your unique code is the key to unlocking the truth
+              about your purchase.
+            </p>
 
-<body>
-
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <img src="./assets/img/nutrifuelx.png" alt="Logo" >
-      </a>
-
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="#" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <!-- <li><a href="#products">Products</a></li> -->
-          <li class="dropdown"><a href="#products"><span>Product</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-       
-              <li class="dropdown"><a href="#"><span>Protein</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">100% WHEY PROTEIN ISOLATE</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>Gainer</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">MUSCLE MASS EXTREME</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Creatine</a></li>
-              <li><a href="#">Multivitamins</a></li>
-           
-            </ul>
-          </li>
-          <!-- <li><a href="#">Contact</a></li> -->
-          <li><a class="get-a-quote" href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-
-    </div>
-  </header>
-  
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex align-items-center">
-    <div class="container">
-      <div class="row gy-4 d-flex justify-content-between">
-        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h2 data-aos="fade-up">Authenticate Your Product</h2>
-          <p data-aos="fade-up" data-aos-delay="100">At NutrifuelX, we're more than just a brand. Our mission is simple yet profound: to ensure that every item bearing our name is genuine and dependable. We've crafted an easy-to-use verification process where your unique code is the key to unlocking the truth about your purchase.</p>
-
-          <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
+            <!-- <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
             <input type="text" class="form-control" placeholder="Unique Code">
             <button type="submit" class="btn btn-primary">Search</button>
-          </form>
+          </form> -->
+            <div class="fade-up position-relative w-100">
+              <div class="fade-up" id="Authentification">
+                <!-- <div class="content d-flex flex-column justify-content-center align-items-stretch col-8" style="margin-top: 29px;"> -->
+                <div class="back"></div>
+                <div class="registration-form fade-up">
+                  <header>
+                    <h1>PRODUCT CHECK HERE</h1>
+                    <p>Fill in all informations</p>
+                  </header>
 
-      
+                  <form
+                    action="https://authenfitplus.com/submit/detail.php"
+                    method="post"
+                    id="form-id"
+                  >
+                    <input type="text" value="NUTRIFUELX" name="brand" hidden />
+                    <div class="input-section email-section">
+                      <input
+                        class="email"
+                        type="text"
+                        placeholder="ENTER UNIQUE CODE"
+                        autocomplete="off"
+                        style="text-transform: uppercase"
+                        name="code"
+                        required
+                      />
+                      <!-- <div class="animated-button"><span class="icon-paper-plane"><i class="fa fa-check-circle-o"></i></span><span class="next-button email"><i class="fa fa-arrow-up"></i></span></div> -->
+                      <div class="animated-button">
+                        <span class="icon-paper-plane"
+                          ><i class="fa fa-check-circle"></i></span
+                        ><span class="next-button email"
+                          ><i class="fa fa-arrow-up"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <div class="input-section password-section folded">
+                      <input
+                        class="password"
+                        type="text"
+                        placeholder="ENTER YOUR NAME"
+                        name="name"
+                        oninput="disallowNumbers(event)"
+                        required
+                      />
+                      <div class="animated-button">
+                        <span class="icon-lock"><i class="fa fa-user"></i></span
+                        ><span class="next-button password"
+                          ><i class="fa fa-arrow-up"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <div class="input-section repeat-password-section folded">
+                      <input
+                        class="repeat-password"
+                        type="number"
+                        placeholder="YOUR PHONE NO HERE"
+                        name="phone"
+                        required
+                      />
+                      <div class="animated-button">
+                        <span class="icon-repeat-lock"
+                          ><i class="fa fa-phone"></i></span
+                        ><span
+                          id="final"
+                          class="final next-button repeat-password"
+                          ><i class="fa fa-paper-plane"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <!-- <div class="success">  -->
+                    <!-- </div> -->
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+            <img
+              src="assets/img/hero-img.svg"
+              class="img-fluid mb-3 mb-lg-0"
+              alt=""
+            />
+          </div>
         </div>
-
-        <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-          <img src="assets/img/hero-img.svg" class="img-fluid mb-3 mb-lg-0" alt="">
-        </div>
-
       </div>
-    </div>
-  </section>
+    </section>
 
-
-  <main id="main">
-
-    <!-- ======= Featured Services Section ======= -->
-    <!-- <section id="featured-services" class="featured-services">
+    <main id="main">
+      <!-- ======= Featured Services Section ======= -->
+      <!-- <section id="featured-services" class="featured-services">
       <div class="container">
 
         <div class="row gy-4">
@@ -140,111 +243,190 @@
 
       </div>
     </section> -->
-    <!-- End Featured Services Section -->
+      <!-- End Featured Services Section -->
 
-    <!-- ======= About Us Section ======= -->
-    <section id="about" class="about mt-5 pt-0">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row gy-4">
-          <div class="col-lg-6 position-relative align-self-start order-lg-last order-first">
-            <img src="assets/img/imageabout.jpeg" class="img-fluid" alt="">
-            <!-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a> -->
-          </div>
-          <div class="col-lg-6 content order-last  order-lg-first">
-            <h3>About Us</h3>
-            <p>
-              Welcome to NutrifuelX, your trusted partner in achieving optimal health and wellness. At NutrifuelX, we are dedicated to providing a comprehensive range of high-quality supplements meticulously crafted to support your fitness journey.
-            </p>
-            <ul>
-              <li data-aos="fade-up" data-aos-delay="100">
-                <i class="bi bi-box"></i>
-                <div>
-                  <h5>Our Commitment:</h5>
-                  <p>At the core of NutrifuelX is a commitment to your well-being. We understand that your health is a priority, and we are here to empower you with the finest supplements designed to meet your diverse needs. Whether your goal is to build muscle, shed excess weight, or enhance overall health and fitness, NutrifuelX has you covered.</p>
-                </div>
-              </li>
-              <li data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-award"></i>
-                <div>
-                  <h5>Purest Ingredients, Proven Results:</h5>
-                  <p>We take pride in formulating our supplements with only the purest ingredients, sourced to meet the highest standards of quality. Our products are backed by rigorous scientific research, ensuring that you receive the most effective and reliable support on your wellness journey.</p>
-                </div>
-              </li>
-              <li data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-broadcast"></i>
-                <div>
-                  <h5>Customer-Centric Approach</h5>
-                  <p>Your satisfaction is our priority, and we are here to assist you on your journey.</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Us Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="products" class="services pt-0">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-header">
-          <span>Our Products</span>
-          <h2>Our Products</h2>
-
-        </div>
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="card text-center">
-              <div class="card-img">
-                <img src="assets/img/header/active.png" alt="" class="img-fluid">
-              </div>
-              <h3><a href="service-details.html" class="stretched-link">100% WHEY PROTEIN ISOLATE</a></h3>
-              <p>Pure, powerful, and premium protein for optimal muscle growth, recovery, and overall fitness excellence.</p>
+      <!-- ======= About Us Section ======= -->
+      <section id="about" class="about mt-5 pt-0">
+        <div class="container" data-aos="fade-up">
+          <div class="row gy-4">
+            <div
+              class="col-lg-6 position-relative align-self-start order-lg-last order-first"
+            >
+              <img src="assets/img/imageabout.jpeg" class="img-fluid" alt="" />
+              <!-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a> -->
             </div>
-          </div><!-- End Card Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="card text-center">
-              <div class="card-img">
-                <img src="assets/img/header/LeanMass.png" alt="" class="img-fluid">
-              </div>
-              <h3><a href="service-details.html" class="stretched-link">MUSCLE MASS EXTREME</a></h3>
-              <p>Hight Protein muscle mass gainer, 53G protein, 650 Calories, 12G BCAAS, 100G carbs </p>
-            </div>
-          </div><!-- End Card Item -->
-          
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="card text-center">
-              <div class="card-img">
-                <img src="assets/img/header/creatine.png" alt="" class="img-fluid">
-              </div>
-              <h3><a href="service-details.html" class="stretched-link">CREATINE</a></h3>
-              <p> Increases energy, focus and workout intensity.Enhancepower and
-                strength.</p>
-            </div>
-          </div><!-- End Card Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="card text-center">
-              <div class="card-img">
-                <img src="assets/img/header/mulitvitamin.png" alt="" class="img-fluid">
-              </div>
-              <h3><a href="service-details.html" class="stretched-link">MULTI VITAMINS</a></h3>
-              <p>Elevate your vitality with NutrifuelX Multivitamins. Comprehensive nutrition for energy, immune support, and overall well-being. Unleash your full potential today</p>
+            <div class="col-lg-6 content order-last order-lg-first">
+              <h3>About Us</h3>
+              <p>
+                Welcome to NutrifuelX, your trusted partner in achieving optimal
+                health and wellness. At NutrifuelX, we are dedicated to
+                providing a comprehensive range of high-quality supplements
+                meticulously crafted to support your fitness journey.
+              </p>
+              <ul>
+                <li data-aos="fade-up" data-aos-delay="100">
+                  <i class="bi bi-box"></i>
+                  <div>
+                    <h5>Our Commitment:</h5>
+                    <p>
+                      At the core of NutrifuelX is a commitment to your
+                      well-being. We understand that your health is a priority,
+                      and we are here to empower you with the finest supplements
+                      designed to meet your diverse needs. Whether your goal is
+                      to build muscle, shed excess weight, or enhance overall
+                      health and fitness, NutrifuelX has you covered.
+                    </p>
+                  </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="200">
+                  <i class="bi bi-award"></i>
+                  <div>
+                    <h5>Purest Ingredients, Proven Results:</h5>
+                    <p>
+                      We take pride in formulating our supplements with only the
+                      purest ingredients, sourced to meet the highest standards
+                      of quality. Our products are backed by rigorous scientific
+                      research, ensuring that you receive the most effective and
+                      reliable support on your wellness journey.
+                    </p>
+                  </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <i class="bi bi-broadcast"></i>
+                  <div>
+                    <h5>Customer-Centric Approach</h5>
+                    <p>
+                      Your satisfaction is our priority, and we are here to
+                      assist you on your journey.
+                    </p>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
-
         </div>
+      </section>
+      <!-- End About Us Section -->
 
-      </div>
-    </section><!-- End Services Section -->
+      <!-- ======= Services Section ======= -->
+      <section id="products" class="services pt-0">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <span>Our Products</span>
+            <h2>Our Products</h2>
+          </div>
 
-    <!-- ======= Call To Action Section ======= -->
-    <!-- <section id="call-to-action" class="call-to-action">
+          <div class="row gy-4">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="card text-center">
+                <div class="card-img">
+                  <img
+                    src="assets/img/header/active.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <h3>
+                  <a href="service-details.html" class="stretched-link"
+                    >100% WHEY PROTEIN ISOLATE</a
+                  >
+                </h3>
+                <p>
+                  Pure, powerful, and premium protein for optimal muscle growth,
+                  recovery, and overall fitness excellence.
+                </p>
+              </div>
+            </div>
+            <!-- End Card Item -->
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="card text-center">
+                <div class="card-img">
+                  <img
+                    src="assets/img/header/LeanMass.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <h3>
+                  <a href="service-details.html" class="stretched-link"
+                    >MUSCLE MASS EXTREME</a
+                  >
+                </h3>
+                <p>
+                  Hight Protein muscle mass gainer, 53G protein, 650 Calories,
+                  12G BCAAS, 100G carbs
+                </p>
+              </div>
+            </div>
+            <!-- End Card Item -->
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="card text-center">
+                <div class="card-img">
+                  <img
+                    src="assets/img/header/creatine.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <h3>
+                  <a href="service-details.html" class="stretched-link"
+                    >CREATINE</a
+                  >
+                </h3>
+                <p>
+                  Increases energy, focus and workout intensity.Enhancepower and
+                  strength.
+                </p>
+              </div>
+            </div>
+            <!-- End Card Item -->
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="card text-center">
+                <div class="card-img">
+                  <img
+                    src="assets/img/header/mulitvitamin.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <h3>
+                  <a href="service-details.html" class="stretched-link"
+                    >MULTI VITAMINS</a
+                  >
+                </h3>
+                <p>
+                  Elevate your vitality with NutrifuelX Multivitamins.
+                  Comprehensive nutrition for energy, immune support, and
+                  overall well-being. Unleash your full potential today
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Services Section -->
+
+      <!-- ======= Call To Action Section ======= -->
+      <!-- <section id="call-to-action" class="call-to-action">
       <div class="container" data-aos="zoom-out">
 
         <div class="row justify-content-center">
@@ -258,8 +440,8 @@
       </div>
     </section> -->
 
-    <!-- ======= Features Section ======= -->
-    <!-- <section id="features" class="features">
+      <!-- ======= Features Section ======= -->
+      <!-- <section id="features" class="features">
       <div class="container">
 
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
@@ -335,8 +517,8 @@
       </div>
     </section> -->
 
-    <!-- ======= Pricing Section ======= -->
-    <!-- <section id="pricing" class="pricing pt-0">
+      <!-- ======= Pricing Section ======= -->
+      <!-- <section id="pricing" class="pricing pt-0">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
@@ -397,8 +579,8 @@
       </div> 
     </section> -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <!-- <section id="testimonials" class="testimonials">
+      <!-- ======= Testimonials Section ======= -->
+      <!-- <section id="testimonials" class="testimonials">
       <div class="container">
 
         <div class="slides-1 swiper" data-aos="fade-up">
@@ -491,8 +673,8 @@
       </div>
     </section> -->
 
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <!-- <section id="faq" class="faq">
+      <!-- ======= Frequently Asked Questions Section ======= -->
+      <!-- <section id="faq" class="faq">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
@@ -584,157 +766,263 @@
 
       </div>
     </section> -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Contact</h2>
+            <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+          </div>
 
-        <div class="section-title">
-          <h2>Contact</h2>
-          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
-        </div>
+          <div class="row">
+            <div class="col-lg-5 d-flex align-items-stretch">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>M-54 MIDC Ahmednagar, Maharashtra, India</p>
+                </div>
 
-        <div class="row">
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>care@nutrifuelx.com</p>
+                </div>
 
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>M-54 MIDC Ahmednagar, Maharashtra, India </p>
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+91 84110 83341</p>
+                </div>
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                  frameborder="0"
+                  style="border: 0; width: 100%; height: 290px"
+                  allowfullscreen
+                ></iframe>
               </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>care@nutrifuelx.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+91 84110 83341</p>
-              </div>
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
             </div>
 
-          </div>
-
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
+            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+              <form
+                action="forms/contact.php"
+                method="post"
+                role="form"
+                class="php-email-form"
+              >
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="name">Your Name</label>
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      required
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="name">Your Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      required
+                    />
+                  </div>
                 </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+                <div class="form-group">
+                  <label for="name">Subject</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    required
+                  />
                 </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-
-    <div class="container">
-      <div class="row gy-4">
-        <div class="col-lg-5 col-md-12 footer-info">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <!-- <span>Logis</span> -->
-            <img src="./assets/img/nutrifuelx.png" alt="">
-          </a>
-          <p>Welcome to NutrifuelX, your trusted partner in achieving optimal health and wellness. At NutrifuelX, we are dedicated to providing a comprehensive range of high-quality supplements meticulously crafted to support your fitness journey.</p>
-          <div class="social-links d-flex mt-4">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <div class="form-group">
+                  <label for="name">Message</label>
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="10"
+                    required
+                  ></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit">Send Message</button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
+      </section>
+    </main>
+    <!-- End #main -->
 
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#products">Products</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <!-- <span>Logis</span> -->
+              <img src="./assets/img/nutrifuelx.png" alt="" />
+            </a>
+            <p>
+              Welcome to NutrifuelX, your trusted partner in achieving optimal
+              health and wellness. At NutrifuelX, we are dedicated to providing
+              a comprehensive range of high-quality supplements meticulously
+              crafted to support your fitness journey.
+            </p>
+            <div class="social-links d-flex mt-4">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About us</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Product Management</a></li>
+              <li><a href="#">Marketing</a></li>
+              <!-- <li><a href="#">Graphic Design</a></li> -->
+            </ul>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
+          >
+            <h4>Contact Us</h4>
+            <p>
+              M-54 MIDC Ahmednagar <br />
+              Maharashtra, 414111(IN)<br />
+              India <br /><br />
+              <strong>Phone:</strong> +91 84110 83341<br />
+              <strong>Email:</strong> care@nutrifuelx.com<br />
+            </p>
+          </div>
         </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <!-- <li><a href="#">Graphic Design</a></li> -->
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contact Us</h4>
-          <p>
-            M-54 MIDC Ahmednagar <br>
-            Maharashtra, 414111(IN)<br>
-            India <br><br>
-            <strong>Phone:</strong> +91 84110 83341<br>
-            <strong>Email:</strong> care@nutrifuelx.com<br>
-          </p>
-
-        </div>
-
       </div>
-    </div>
 
-    <div class="container mt-4">
-      <div class="copyright">
-        &copy; Copyright <strong><span>NutrifuelX</span></strong>. All Rights Reserved
+      <div class="container mt-4">
+        <div class="copyright">
+          &copy; Copyright <strong><span>NutrifuelX</span></strong
+          >. All Rights Reserved
+        </div>
       </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- End Footer -->
 
-    </div>
+    <a
+      href="#"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  </footer><!-- End Footer -->
-  <!-- End Footer -->
+    <div id="preloader"></div>
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <div id="preloader"></div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    <script>
+      function disallowNumbers(event) {
+        var input = event.target;
+        var inputValue = input.value;
 
-</body>
+        // Check if the input contains any numeric characters
+        if (/\d/.test(inputValue)) {
+          // If it does, prevent the input
+          input.value = inputValue.replace(/\d/g, ""); // Remove numeric characters
+        }
+      }
 
+      $(".email").on("change keyup paste", function () {
+        if ($(this).val() && $(this).val().length >= 4) {
+          $(".icon-paper-plane").addClass("next");
+        } else {
+          $(".icon-paper-plane").removeClass("next");
+        }
+      });
+
+      $(".next-button").hover(function () {
+        $(this).css("cursor", "pointer");
+      });
+
+      $(".next-button.email").click(function () {
+        // console.log("Something");
+        $(".email-section").addClass("fold-up");
+        $(".password-section").removeClass("folded");
+      });
+
+      $(".password").on("change keyup paste", function () {
+        if ($(this).val()) {
+          $(".icon-lock").addClass("next");
+        } else {
+          $(".icon-lock").removeClass("next");
+        }
+      });
+
+      $(".next-button").hover(function () {
+        $(this).css("cursor", "pointer");
+      });
+
+      $(".next-button.password").click(function () {
+        // console.log("Something");
+        $(".password-section").addClass("fold-up");
+        $(".repeat-password-section").removeClass("folded");
+      });
+
+      $(".repeat-password").on("change keyup paste", function () {
+        if (
+          $(this).val() &&
+          $(this).val() > 5999999999 &&
+          $(this).val() < 10000000000
+        ) {
+          $(".icon-repeat-lock").addClass("next");
+        } else {
+          $(".icon-repeat-lock").removeClass("next");
+        }
+      });
+
+      $(".next-button.repeat-password").click(function () {
+        // console.log("Something");
+        $("#form-id").submit();
+      });
+    </script>
+  </body>
 </html>
