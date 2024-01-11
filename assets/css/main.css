@@ -105,6 +105,9 @@ section {
 }
 
 @media (max-width: 640px) {
+  .hero-img {
+    display: none;
+  }
   .section-header h2 {
     font-size: 28px;
     margin-bottom: 15px;
@@ -262,6 +265,9 @@ section {
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
+  .hero-img {
+    display: none;
+  }
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
@@ -438,6 +444,7 @@ section {
 # Mobile Navigation
 --------------------------------------------------------------*/
 @media (max-width: 1279px) {
+  
   .navbar {
     position: fixed;
     top: 0;
@@ -975,6 +982,9 @@ section {
 }
 
 @media (max-width: 992px) {
+  .hero-img {
+    display: none;
+  }
   .pricing .box {
     max-width: 60%;
     margin: 0 auto 30px auto;
@@ -1710,6 +1720,10 @@ section {
 }
 
 @media (max-width: 575px) {
+  .hero-img {
+    display: none;
+  }
+
   .hero h2 {
     font-size: 30px;
   }
